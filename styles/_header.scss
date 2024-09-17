@@ -1,21 +1,39 @@
-
-header nav {
-    background-color: $secondaryColor;
-    color: $primaryColor; 
-    font-family: $genericFont;
-    font-size: 2rem;
-}
 header {
-   margin: 0 auto;
-
+  font-family: $genericFont;
 }
 ul {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-li {
-   list-style-type: none;
-  padding: 1rem;
-  margin: 1rem;
-  
+header li {
+  list-style-type: none;
+  padding: $genericPadding;
+  color: $primaryColor;
+}
+.logo {
+  height: 20vh;
+  width: 100%;
+  background: url(/ExerciseSCSS/ExerciseSCSS/images/header.jpg);
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: $genericfont;
+}
+
+@media screen and (min-width: 700px) {
+  .logo {
+    height: 25vh;
+    font-size: $fontBg;
+  }
+  header ul {
+    align-items: center;
+    justify-content: right;
+    height: 7vh;
+  }
+  header li {
+    font-size: $fontBg;
+  }
 }

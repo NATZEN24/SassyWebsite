@@ -1,0 +1,20 @@
+footer {
+  font-family: $genericFont;
+  background-color: $primaryColor;
+}
+
+footer li {
+  list-style-type: none;
+  padding: $genericPadding;
+  color: $secondaryColor;
+}
+@media screen and (min-width: 700px) {
+  footer li {
+    font-size: $fontBg;
+  }
+  footer ul {
+    display: flex;
+    align-items: center;
+    height: 7vh;
+  }
+}

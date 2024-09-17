@@ -1,16 +1,21 @@
-$backroundcolor: #9e9e65;
-$primaryColor: #0b669b ;
+$backroundcolor: #e6e6b3;
+$primaryColor: #127c9c;
 $secondaryColor: white;
-$bordercolor: olive;
+$bordercolor: #bdbd23;
 
-$genericFont: 'Arial', sans-serif;
-$genericPadding: 1rem;
+$genericFont: "Arial", sans-serif;
+$genericfont: 0.8rem;
+$fontBg: 1.2rem;
+$borderRadiusImg: 0.5rem 0.5rem 0 0;
+$genericPadding: 0.5rem;
+$genericMargin: 0.5rem;
 
-body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-
-@import 'header';
+@import "header";
+@import "corp";
+@import "footer";
