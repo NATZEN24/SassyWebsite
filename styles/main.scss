@@ -1,0 +1,16 @@
+$backroundcolor: #9e9e65;
+$primaryColor: #0b669b ;
+$secondaryColor: white;
+$bordercolor: olive;
+
+$genericFont: 'Arial', sans-serif;
+$genericPadding: 1rem;
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+
+@import 'header';

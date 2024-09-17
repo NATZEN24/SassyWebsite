@@ -1,0 +1,21 @@
+
+header nav {
+    background-color: $secondaryColor;
+    color: $primaryColor; 
+    font-family: $genericFont;
+    font-size: 2rem;
+}
+header {
+   margin: 0 auto;
+
+}
+ul {
+display: flex;
+justify-content: center;
+}
+li {
+   list-style-type: none;
+  padding: 1rem;
+  margin: 1rem;
+  
+}
