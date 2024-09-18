@@ -46,6 +46,7 @@ header li {
   }
 }
 img {
+  height: 40vh;
   width: 100%;
   border-radius: 0.5rem 0.5rem 0 0;
 }
